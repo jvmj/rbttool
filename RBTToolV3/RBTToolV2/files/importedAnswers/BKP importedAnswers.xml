@@ -1,0 +1,161 @@
+<rbttool>
+  <questionAnswer>
+    <questionAnswerID>996</questionAnswerID>
+    <userName>Keldjan</userName>
+    <projectName>RBTTool</projectName>
+    <questionnaireName>2</questionnaireName>
+    <questionAnswerAssociation>
+      <entry>
+        <question>
+          <id>2</id>
+          <description>is changing too much?</description>
+          <risk>
+            <name>Stability</name>
+            <description></description>
+            <group>Product Engineering</group>
+            <attribute>Requirements</attribute>
+          </risk>
+          <riskLeashedToAnswer>Yes</riskLeashedToAnswer>
+          <requirementID>RF02</requirementID>
+        </question>
+        <string>Yes</string>
+      </entry>
+      <entry>
+        <question>
+          <id>1</id>
+          <description>is changing too much?</description>
+          <risk>
+            <name>Stability</name>
+            <description></description>
+            <group>Product Engineering</group>
+            <attribute>Requirements</attribute>
+          </risk>
+          <riskLeashedToAnswer>Yes</riskLeashedToAnswer>
+          <requirementID>RF01</requirementID>
+        </question>
+        <string>Yes</string>
+      </entry>
+      <entry>
+        <question>
+          <id>4</id>
+          <description>has comunnication with another requirements?</description>
+          <risk>
+            <name>Completeness</name>
+            <description></description>
+            <group>Product Engineering</group>
+            <attribute>Requirements</attribute>
+          </risk>
+          <riskLeashedToAnswer>Yes</riskLeashedToAnswer>
+          <requirementID>RF02</requirementID>
+        </question>
+        <string>Yes</string>
+      </entry>
+      <entry>
+        <question>
+          <id>3</id>
+          <description>has comunnication with another requirements?</description>
+          <risk>
+            <name>Completeness</name>
+            <description></description>
+            <group>Product Engineering</group>
+            <attribute>Requirements</attribute>
+          </risk>
+          <riskLeashedToAnswer>Yes</riskLeashedToAnswer>
+          <requirementID>RF01</requirementID>
+        </question>
+        <string>Yes</string>
+      </entry>
+    </questionAnswerAssociation>
+  </questionAnswer>
+  <questionAnswer>
+    <questionAnswerID>172</questionAnswerID>
+    <userName>Ellen</userName>
+    <projectName>RBTTool</projectName>
+    <questionnaireName>2</questionnaireName>
+    <questionAnswerAssociation>
+      <entry>
+        <question>
+          <id>2</id>
+          <description>is changing too much?</description>
+          <risk>
+            <name>Stability</name>
+            <description></description>
+            <group>Product Engineering</group>
+            <attribute>Requirements</attribute>
+          </risk>
+          <riskLeashedToAnswer>Yes</riskLeashedToAnswer>
+          <requirementID>RF02</requirementID>
+        </question>
+        <string>No</string>
+      </entry>
+      <entry>
+        <question>
+          <id>1</id>
+          <description>is changing too much?</description>
+          <risk>
+            <name>Stability</name>
+            <description></description>
+            <group>Product Engineering</group>
+            <attribute>Requirements</attribute>
+          </risk>
+          <riskLeashedToAnswer>Yes</riskLeashedToAnswer>
+          <requirementID>RF01</requirementID>
+        </question>
+        <string>Yes</string>
+      </entry>
+      <entry>
+        <question>
+          <id>4</id>
+          <description>has comunnication with another requirements?</description>
+          <risk>
+            <name>Completeness</name>
+            <description></description>
+            <group>Product Engineering</group>
+            <attribute>Requirements</attribute>
+          </risk>
+          <riskLeashedToAnswer>Yes</riskLeashedToAnswer>
+          <requirementID>RF02</requirementID>
+        </question>
+        <string>Yes</string>
+      </entry>
+      <entry>
+        <question>
+          <id>3</id>
+          <description>has comunnication with another requirements?</description>
+          <risk>
+            <name>Completeness</name>
+            <description></description>
+            <group>Product Engineering</group>
+            <attribute>Requirements</attribute>
+          </risk>
+          <riskLeashedToAnswer>Yes</riskLeashedToAnswer>
+          <requirementID>RF01</requirementID>
+        </question>
+        <string>No</string>
+      </entry>
+    </questionAnswerAssociation>
+  </questionAnswer>
+  <questionAnswer>
+    <questionAnswerID>695</questionAnswerID>
+    <userName>Keldjan</userName>
+    <projectName>MyPhyscaS</projectName>
+    <questionnaireName>test</questionnaireName>
+    <questionAnswerAssociation>
+      <entry>
+        <question>
+          <id>1</id>
+          <description>is stable?</description>
+          <risk>
+            <name>Stability</name>
+            <description></description>
+            <group>Product Engineering</group>
+            <attribute>Requirements</attribute>
+          </risk>
+          <riskLeashedToAnswer>No</riskLeashedToAnswer>
+          <requirementID>01</requirementID>
+        </question>
+        <string>No</string>
+      </entry>
+    </questionAnswerAssociation>
+  </questionAnswer>
+</rbttool>

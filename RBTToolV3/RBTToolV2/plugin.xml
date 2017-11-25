@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+
+   <extension
+         id="application"
+         point="org.eclipse.core.runtime.applications">
+      <application>
+         <run
+               class="rcp.Application">
+         </run>
+      </application>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            class="rcp.perspectives.Perspective"
+            icon="icons/Main_Perspective.png"
+            id="RCP.mainPerspective"
+            name="Main Perspective">
+      </perspective>
+      <perspective
+            class="rcp.perspectives.PerspectiveTest"
+            icon="icons/Testing_Perspective.png"
+            id="RCP.testPerspective"
+            name="Test Management Perspective">
+      </perspective>
+   </extension>
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            name="ProjectDetailsView"
+            class="rcp.views.ProjectDetailsView"
+            id="RCP.ProjectDetailsView">
+      </view>
+      <view
+            class="rcp.views.ProjectView"
+            id="RCP.ProjectView"
+            name="ProjectView">
+      </view>
+      <view
+            class="rcp.views.DetailsView"
+            id="RCP.DetailsView"
+            name="DetailsView">
+      </view>
+      <view
+            class="rcp.views.RequirementsView"
+            id="RCP.RequirementsView"
+            name="RequirementsView"
+            restorable="true">
+      </view>
+      <view
+            class="rcp.views.QuestionnairesView"
+            id="RCP.QuestionnairesView"
+            name="QuestionnairesView"
+            restorable="true">
+      </view>
+      <view
+            class="rcp.views.IdentifiedRisksView"
+            id="RCP.IdentifiedRisksView"
+            name="Identified Risks"
+            restorable="true">
+      </view>
+      <view
+            class="rcp.views.TestPlanView"
+            id="RCP.TestPlansView"
+            name="Test Plans"
+            restorable="true">
+      </view>
+      <view
+            class="rcp.perspectives.PerspectiveView"
+            id="RCP.PerspectiveView"
+            name="Perspective View">
+      </view>
+      <view
+            class="rcp.views.TestCasesView"
+            id="RCP.RequirementsIterationsView"
+            name="Requirements x Test Iterations"
+            restorable="true">
+      </view>
+      <view
+            class="rcp.views.TestIterationsView"
+            id="RCP.TestIterationsView"
+            name="TestIterationsView"
+            restorable="true">
+      </view>
+      <view
+            class="rcp.views.TestPlanDescriptionView"
+            id="RCP.TestPlanDescriptionView"
+            name="TestPlanDescriptionView"
+            restorable="true">
+      </view>
+   </extension>
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            class="rcp.editors.RiskAnalysisEditor"
+            default="true"
+            id="RCP.RiskAnalysisEditor"
+            name="Risk Analysis Editor">
+      </editor>
+   </extension>
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="RBTTool.application"
+            name="RBTTool">
+         <property
+               name="appName"
+               value="RBTTool">
+         </property>
+      </product>
+   </extension>
+   <extension
+         id="product1"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="RCP.application"
+            name="RBTTool">
+         <property
+               name="appName"
+               value="RBTTool">
+         </property>
+         <property
+               name="aboutImage"
+               value="/RBTToolV2/icons/splash.png">
+         </property>
+         <property
+               name="aboutText"
+               value="RBTTool is a support tool for Risk-based testing activities that allows the test engineers identify, analyze and control the risk factors associated to the software requirements and manage, design and evaluate the risk-based test cases.&#x0A;&#x0A;For more information and contact, please visit our Website: http://pma.dsc.upe.br/rbttool">
+         </property>
+      </product>
+   </extension>
+
+</plugin>

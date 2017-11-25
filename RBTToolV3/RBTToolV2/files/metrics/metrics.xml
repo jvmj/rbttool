@@ -1,0 +1,51 @@
+<rbttool>
+  <metric>
+    <name>Cost Client</name>
+    <weight>1</weight>
+    <type>impact metric</type>
+	<metricDetails>1 - Low Cost&#xd;2 - Medium Cost&#xd;3 - High Cost
+	</metricDetails>
+  </metric>
+  <metric>
+    <name>Cost Vendor</name>
+    <weight>1</weight>
+    <type>impact metric</type>
+	<metricDetails>1 - Low Cost&#xd;2 - Medium Cost&#xd;3 - High Cost 
+	</metricDetails>
+  </metric>
+  <metric>
+    <name>New Feature</name>
+    <weight>5</weight>
+    <type>probability metric</type>
+	<metricDetails>1 - Functionality is old and doesn't have any changes&#xd;2 - Functionality is changed&#xd;3 - Functionality is new 
+	</metricDetails>
+  </metric>
+  <metric>
+    <name>Design</name>
+    <weight>5</weight>
+    <type>probability metric</type>
+	<metricDetails>1 - Functionality without problems&#xd;2 - Functionality has shown some problems in the last versions&#xd;3 - Functionality has shown too much problems in the last versions&#xd;--------------------------------------------------------&#xd;1 - Experienced Developer&#xd;2 - Developer don't have enough experience&#xd;3 - Unexperienced Developer&#xd;--------------------------------------------------------&#xd;1 - Stable Funcionality&#xd;2 - Functionality has changed little&#xd;3 - Functionality has changed too much
+	</metricDetails>
+  </metric>
+  <metric>
+    <name>Size/Change</name>
+    <weight>1</weight>
+    <type>probability metric</type>
+	<metricDetails>1 - Little change&#xd;2 - Medium change&#xd;3 - Big change
+	</metricDetails>
+  </metric>
+  <metric>
+    <name>Complexity</name>
+    <weight>3</weight>
+    <type>probability metric</type>
+	<metricDetails>1 - Functionality is Easy to understand&#xd;2 - Functionality is Not Too Easy to understand (there's some doubts)&#xd;3 - Functionality is Hard to understand (there's too many doubts)
+	</metricDetails>
+  </metric>
+  <metric>
+    <name>Dependence</name>
+    <weight>2</weight>
+    <type>probability metric</type>
+	<metricDetails>Dependece Level of the Functionality regarding others:&#xd;1 - Low&#xd;2 - Medium&#xd;3 - High
+	</metricDetails>
+  </metric>
+</rbttool>

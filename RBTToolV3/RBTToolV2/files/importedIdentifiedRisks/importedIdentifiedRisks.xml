@@ -1,0 +1,28 @@
+<rbttool>
+  <identifiedRisk>
+    <id>Ainda existe algo para ser especificado nesta funcionalidade? Se SIM, qual parte da funcionalidade não está especificada?01Cris</id>
+    <resourceName>Cris</resourceName>
+    <requirementID>01</requirementID>
+    <risk>
+      <name>Completeness</name>
+      <description></description>
+      <group>Product Engineering</group>
+      <attribute>Requirements</attribute>
+    </risk>
+    <cause>Tela &quot;X&quot;</cause>
+    <projectName>Teste</projectName>
+  </identifiedRisk>
+  <identifiedRisk>
+    <id>Ainda existe algo para ser especificado nesta funcionalidade? Se SIM, qual parte da funcionalidade não está especificada?01Cris</id>
+    <resourceName>Cris</resourceName>
+    <requirementID>01</requirementID>
+    <risk>
+      <name>Completeness</name>
+      <description></description>
+      <group>Product Engineering</group>
+      <attribute>Requirements</attribute>
+    </risk>
+    <cause>Tela &quot;X&quot;</cause>
+    <projectName>Teste</projectName>
+  </identifiedRisk>
+</rbttool>
